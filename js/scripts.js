@@ -110,7 +110,4 @@ var card2 = new Card('Stworzyc tablice kanban');
 
 todoColumn.addCard(card1);
 doingColumn.addCard(card2);
-
-
-
 });

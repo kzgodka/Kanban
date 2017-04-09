@@ -1,85 +1,6 @@
 * {
 	box-sizing: border-box;
-
 }
-
-body {
-	background-color: #6C8EDB;
-}
-
-.board h1 {
-	text-align: center;
-}
-
-
-.column-title {
-	text-align: center;
-	background-color: darkgrey;
-}
-
-ul {
-	list-style-type: none;
-	padding: 0;
-	min-height: 200px;
-
-}
-
-li {
-	padding: 0;
-	margin: 0;
-	background-color: yellow;
-	min-height: 100px;
-	box-shadow: 5px 5px 5px #888888;
-}
-
-li p {
-	text-align: center;
-}
-
-.board {
-	/*text-align: center;*/
-	width: 100%;
-}
-
-.column-container {
-	/*text-align: center;*/
-	margin: 0 auto;
-	width: 100%;
-}
-
-.btn-delete {
-	background: none;
-	border: none;
-	font-size: 15px;
-	font-weight: bold;
-	color: red;
-}
-
-.add-card,
-.create-column {
-	background: lightgreen;
-	border: 1px solid green;
-	font-size: 15px;
-	font-weight: bold;
-	border-radius: 10px;
-}
-
-.create-column {
-	margin-left: 10px;
-	margin-bottom: 10px;
-}
-
-
-.column {
-	max-width: 30%;
-	margin: 10px;
-	background: #e0e0e0;
-	border-radius: 3px;
-	background-color: #CDD1DB;
-}
-
-
-
 
 .row:before, 
 .row:after {
@@ -106,3 +27,73 @@ li p {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+body {
+	background-color: #6C8EDB;
+}
+
+.board h1 {
+	text-align: center;
+}
+
+.column-title {
+	text-align: center;
+	background-color: darkgrey;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	min-height: 200px;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	background-color: #FFE66F;
+	min-height: 100px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+li p {
+	text-align: center;
+}
+
+.board {
+	width: 100%;
+}
+
+.column-container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.btn-delete {
+	background: none;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: red;
+}
+
+.add-card,
+.create-column {
+	background: lightgreen;
+	border: 1px solid green;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.create-column {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.column {
+	max-width: 30%;
+	margin: 10px;
+	background: #e0e0e0;
+	border-radius: 3px;
+	background-color: #CDD1DB;
+}
